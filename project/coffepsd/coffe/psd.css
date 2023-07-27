@@ -1,0 +1,208 @@
+/* ........................................headear..................................... */
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.header
+{
+    background-image: url(../image/Shape\ \(2\).png);
+    background-position: center;
+    background-color: #b13941;
+    justify-content: center;
+}
+.contenar 
+{
+  padding: 10px;
+}
+a
+{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+ul , li
+{
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+}
+/* ........................................box1..................................... */
+.banaer
+{
+   background: url(../image/box1.png) repeat no-repeat center center/cover;
+}
+.maintext
+{
+    text-align: center;
+    padding: 10px 100px;
+    color: aliceblue;
+    padding: 50px;
+}
+h1
+{
+    color: #feedda;
+    padding: 55px;
+    font-weight: 600;
+    font-size: 50px;
+}
+.p-1
+{
+font-size: 21px;
+line-height: 33px;
+color: #fefefe;
+font-weight: 400;
+font-family: "PT Serif";
+padding: 0px 100px;
+}
+button
+{
+    color: white;
+    background-color: #b13941;
+    width: 130px;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+/* ........................................box2..................................... */
+.box2
+{
+    background-color: #b13941;
+    background-image: url(../image/Shape\ \(2\).png);
+    background-position: center;
+    width: 100%;
+    display: flex;
+    color: #fefefe;
+}
+.banaer-1
+{
+    padding-top: 80px;
+    padding-left: 100px;
+    width: 350px;
+}
+.img-1
+{
+    width: 200px;
+}
+.maintext-2
+{
+    width: 900px;
+    margin-left: 100px;
+}
+.p-2
+{
+  margin-top: 100px;  
+  padding: 5px;
+  font-size: 25px;
+}
+.p-3
+{
+    padding: 5px;
+    font-size: 40px;
+}
+.p-4
+{
+    padding: 5px;
+    font-size: 15px;
+}
+.button-2
+{
+    background-color: rgb(245, 242, 219);
+    color:#b13941;
+    line-height: 30px;
+    width: 20%;
+   margin-bottom: 70px;
+}
+/* ........................................box3..................................... */
+.box3
+{
+       width: 100%;
+       display: flex;
+}
+.banare-2
+{
+    background-image: url(../image/cap.png);
+    background-size: cover;
+    width: 45%;
+}
+.maintext-3
+{
+    width: 55%;
+    padding-left: 55px;
+    padding-top: 100px;
+    background-color: #f8eed3;
+}
+.h2
+{
+   padding: 50px;
+   font-size: 50px;
+   margin-left: 40px;
+}
+.p-5
+{
+    font-size: 15px;
+    padding: 0px 100px;
+   
+}
+.a-01
+{
+    color: red;
+    font-size: 15px;
+    text-decoration: underline;
+    line-height: 130px;
+    margin-left: 110px;
+}
+/* ........................................box4..................................... */
+.box4
+{
+    background-color: #b13941;
+    padding-bottom: 100px;
+}
+.maintext-4
+{
+    text-align: center;
+}
+.h2-4
+{
+    padding-top: 30px;
+    font-size: 60px;
+    color: #fefefe;
+}
+.p-6
+{
+    font-size: 29px;
+    padding: 20px 100px;
+    color: #feedda;
+}
+
+.allimg
+{
+    display: flex;
+    width: 100%;
+}
+.banare-4
+{
+    padding-top: 30px;
+}
+.maintext-04
+{
+    padding-bottom: 45px;
+    background-color: #fefefe;
+    width: 177px;
+}
+.P-7
+{
+    font-size: 10px;
+    margin-left: 18px;
+    padding-top: 12px;
+    text-align: start;
+}
+.button-4
+{
+    margin-left: 18px;
+}
+.h2-04
+{
+    padding-top: 60px;
+    margin-left: 18px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Child Selector</title>
+    <style>
+        .parent{
+            border: 10px solid blue;
+        }
+        .child{
+            border: 10px solid teal;
+
+        }
+        .parent>p{
+            color: tomato;
+            border: 1px solid black;
+        }
+        .child>p{
+            border: 5px solid green;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Child Selector (>)</h1>
+    <div class="parent">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+        optio.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+        optio.
+      </p>
+      <div class="child">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+          optio.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+          optio.
+        </p>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+        optio.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+        optio.
+      </p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, distinctio!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, distinctio!</p>
+  </body>
+</html>

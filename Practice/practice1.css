@@ -1,0 +1,26 @@
+*{
+    background-color: black;
+    color: deepskyblue;
+}
+#up{
+    color: cornsilk;
+    font-size: 45px;
+    background-color: black;
+}
+#kp{
+    color: darkmagenta;
+    font-size: 40px;
+    
+}
+h2{
+    color: floralwhite;
+    font-size: 45px;
+}
+p{
+    color:aquamarine;
+    font-size: 40px;
+}
+.ram{
+    color: chocolate;
+    font-size: 47px;
+}

@@ -1,0 +1,36 @@
+p+p{
+    color: crimson;
+    background-color: blue;
+}
+p,h2,h1{
+    color: white;
+    background-color: black;
+}
+a{
+    
+    color: cadetblue;
+    font-size: 30px;
+}
+a:visited{
+    color: rgb(237, 100, 100);
+    font-size: 40px;
+}
+a:active{
+    color: aquamarine;
+}
+button{
+    color: darkorange;
+    font-size: 32px;
+    background-color: black;
+    padding: 10px 30px;
+    transition: 2s;
+}
+button:hover{
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    padding: 10px 40px;
+    border-radius: 35px;
+    transition: 2s;
+    border: 1px solid darkgoldenrod;
+}

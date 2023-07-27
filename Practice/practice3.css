@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: cornsilk;
+}
+h1{
+    color: rgb(119, 198, 252);
+
+    font-size: 40px;
+}
+p{
+    color: khaki;
+    background-color: teal;
+    font-size: 35px;
+}
+.utsav{
+    
+    background-color: aqua;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    
+}
+.ram{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+}
+h2{
+    color: crimson;
+    background-color: blue;
+    height: 40px;
+    width: 30px;
+
+}

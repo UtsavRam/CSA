@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .row{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+           width: 90%;
+           margin: 0 auto;
+        }
+        .red
+        {
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+            padding: 10px;
+            border: 10px solid black;
+             background-color:chocolate;
+        }
+        .white
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px dotted blue;
+            background-color: chartreuse;
+        }
+       .double
+       {
+        margin: 10px;
+            padding: 10px;
+        height: 200px;
+            width: 200px;
+            border: 10px double yellow;
+            background-color: black;
+            color: white;
+       }
+       .ridge
+       {
+        margin: 10px;
+            padding: 10px;
+        height: 200px;
+            width: 200px;
+            border: 10px ridge pink;
+            background-color: black;
+            color: white;
+       }
+       .groove
+       {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px groove rgb(110, 73, 79);
+            background-color: rgb(65, 30, 30);
+            color: white;
+       }
+       .dashed
+       {
+           margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px dashed rgb(194, 7, 38);
+            background-color: rgb(0, 32, 242);
+       }
+       .groove
+       {
+        margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px groove rgb(194, 7, 38);
+            background-color: rgb(0, 32, 242);
+       }
+       .outset
+       {
+        margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(194, 7, 169);
+            background-color: rgba(15, 149, 164, 0.688);
+       }
+       .inset
+       {
+        margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px inset rgba(113, 4, 86, 0.287);
+            background-color: rgba(5, 83, 91, 0.139);
+       }
+       .outset
+       {
+        margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgba(11, 255, 231, 0.287);
+            background-color: rgba(95, 111, 255, 0.686);
+         }
+         .border-rediurs
+         {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgba(11, 255, 231, 0.287);
+            background-color: rgba(95, 111, 255, 0.686);
+            border-radius: 35%; 
+         }
+         .border-bottom
+         {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgba(11, 255, 231, 0.287);
+            background-color: rgba(95, 111, 255, 0.686);
+           border-bottom: 10px solid black;
+         }
+         .border-color
+         {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgba(11, 255, 231, 0.287);
+            background-color: rgba(95, 244, 255, 0.686);
+            border-color: chartreuse;
+         }
+         .border-top
+         {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgba(11, 255, 231, 0.287);
+            background-color: rgba(95, 244, 255, 0.686);
+            border-top: 10px solid pink;
+         }
+         .border-left
+         {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(132, 251, 239);
+            background-color: rgb(18, 240, 225); 
+            border-left: 10px solid black;
+         }
+         .border-width
+         {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(1, 11, 10);
+            background-color: rgb(18, 240, 225); 
+            border-width:10px;
+         }
+         .border-right
+         {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgba(75, 255, 10, 0.999);
+            background-color: rgb(18, 240, 225);
+            border-right:10px solid gold ; 
+         }
+         .border-style
+         {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset black;
+            background-color: gold; 
+            border-style: 10px;
+         }
+         .border-top-left-radius
+         {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset black;
+            background-color: rgb(255, 0, 0);
+            border-top-left-radius: 10px;
+        }
+        .border-top-right-radius
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset black;
+            background-color: rgb(0, 4, 255);
+            border-top-right-radius: 10px;
+        }
+        .border-bottom-left-radius
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(222, 14, 14);
+            background-color: rgb(0, 4, 255);
+            border-bottom-left-radius:10px;
+        }
+        .border-bottom-right-radius
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(14, 153, 222);
+            background-color: rgb(0, 4, 255);
+            border-bottom-right-radius:10px;
+        }
+        .border-collapse
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(222, 139, 14);
+            background-color: rgb(0, 229, 255);
+            border: collapse 1px; 
+        }
+        .border-bottom-color
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(222, 139, 14);
+            background-color: rgb(0, 229, 255);
+            border-bottom-color: cyan;
+        }
+        .border-top-color
+        {
+          
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(222, 139, 14);
+            background-color: rgb(0, 229, 255);
+            border-top-color: rgb(255, 0, 0); 
+        }
+        .border-spacing
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(222, 139, 14);
+            background-color: rgb(0, 229, 255);
+            border-spacing: 10px;
+        }
+        .border-bottom-width
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(14, 222, 73);
+            background-color: rgb(0, 229, 255);
+            border-bottom-width:100px;
+        }
+        .border-top-width
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(219, 222, 14);
+            background-color: rgb(0, 229, 255);
+            border-top-width:50px;
+        }
+        .border-left-width
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(219, 222, 14);
+            background-color: rgb(0, 229, 255);
+            border-left-width: 90px; 
+        }
+        .border-right-width
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(219, 222, 14);
+            background-color: rgb(0, 229, 255);
+            border-right-width: 89px;
+        }
+        .border-bottom-style
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(219, 222, 14);
+            background-color: rgb(0, 229, 255);
+            border-bottom-style:  dotted;
+        }
+        .border-top-style
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(219, 222, 14);
+            background-color:url(../Images/lightpic.jpg);
+            border-top-style: 1px solid black;
+        }
+        .border-image
+        {
+            margin: 10px;
+            padding: 30px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(219, 222, 14);
+            background-color: rgb(0, 229, 255);
+            border-image: url(../Images/lightpic.jpg) 10;
+        }
+        .border-block
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(14, 222, 205);
+            background-color: rgb(194, 236, 241); 
+            border-block: 1px solid red;
+        }
+        .border-block-color
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(136, 237, 225);
+            background-color: rgb(0, 59, 65); 
+            border-block-color: 1px solid white;
+        }
+        .border-block-end
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(136, 237, 225);
+            background-color: rgb(0, 59, 65); 
+            border-block-end: 6px solid yellow;
+        }
+        .border-block-start
+        {
+            margin: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            border: 10px outset rgb(136, 237, 225);
+            background-color: rgb(0, 59, 65); 
+            border-block-start: 8px solid pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="red">solid</div>
+        <div class="white"> doted</div>
+        <div class="double">double</div>
+        <div class="ridge">ridge</div>
+        <div class="groove">groove</div>
+        <div class="outset">outset</div>
+        <div class="inset">inset</div>
+        <div class="outset">outset</div>
+        <div class="border-rediurs">border-rediurs</div>
+        <div class="border-bottom">border-bottom</div>
+        <div class="border-color">border-color</div>
+        <div class="border-top">border-top</div>
+        <div class=" border-left"> border-left</div>
+        <div class="border-width">border-width</div>
+        <div class="border-right">border-right</div>
+        <div class="border-style">border-style</div>
+        <div class="border-top-left-radius">border-top-left-radius</div>
+        <div class="border-top-right-radius">border-top-right-radius</div>
+        <div class="border-bottom-left-radius">border-bottom-left-radius</div>
+        <div class=" border-bottom-right-radius"> border-bottom-right-radius</div>
+        <div class="border-collapse">border-collapse</div>
+        <div class="border-bottom-color">border-bottom-color</div>
+        <div class="border-top-color">border-top-color</div>
+        <div class=" border-spacing"> border-spacing</div>
+        <div class=" border-bottom-width"> border-bottom-width</div>
+        <div class="border-top-width">border-top-width</div>
+        <div class="border-left-width">border-left-width</div>
+        <div class="border-right-width">border-right-width</div>
+        <div class="border-bottom-style">border-bottom-style</div>
+        <div class="border-top-style">border-top-style</div>
+        <div class="border-image">border-image</div>
+        <div class="border-block">border-block</div>
+        <div class="border-block-color">border-block-color</div>
+        <div class="border-block-end">border-block-end</div>
+        <div class="border-block-start">border-block-start</div>
+    </div>
+    
+</body>
+</html>
