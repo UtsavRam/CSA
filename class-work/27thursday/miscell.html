@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miscellaneous Properties</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+        /* background-color: rgb(166, 124, 205); */
+        background: url(../../Images/nature_pic.jpg) no-repeat center center/cover;
+        border: 10px dashed blue;
+        outline: 5px solid brown;
+        cursor: crosshair;
+        cursor: grab;
+        cursor: pointer;
+        /* display: none; */
+        /* visibility: hidden; */
+        /* opacity: 0.5; */
+        filter: blur(5px);
+        filter: brightness(0.4);
+        filter: drop-shadow(16px 16px 20px blue);
+        filter: grayscale(50%);
+        filter: hue-rotate(90deg);
+        filter: invert(75%);
+        filter: opacity(25%);
+        filter: saturate(30%);
+        filter: sepia(60%);
+        filter: contrast(150%);
+      }
+      caption{
+        caption-side: bottom;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Miscellaneous Properties</h1>
+    <hr />
+    before
+    <div class="box"></div>
+    after
+    <hr>
+    <table border="">
+        <tr>
+            <td>Test</td>
+            <td>Test</td>
+            <td>Test</td>
+            <td>Test</td>
+        </tr>
+        <caption>Table No.21</caption>
+    </table>
+  </body>
+</html>

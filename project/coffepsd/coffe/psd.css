@@ -5,6 +5,10 @@
    padding: 0;
    box-sizing: border-box;
 }
+body
+{
+    background-color: white;
+}
 .header
 {
     background-image: url(../image/Shape\ \(2\).png);
@@ -205,4 +209,252 @@ button
 {
     padding-top: 60px;
     margin-left: 18px;
+}
+/* ........................................box5..................................... */
+.box5
+{
+    background-color:#f8eed3;
+    text-align: center; 
+}
+.h2-5
+{
+    padding-top: 70px;
+    font-size: 40px;
+    color: #b13941;
+}
+.p-8
+{
+    font-size: 29px;
+    padding: 20px 100px;
+    color: #b13941;
+}
+.allimg-5
+{
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+.img-5
+{
+    position: relative;
+    margin-left: 85px;
+}
+.text-5
+{
+   border: 12px solid white;
+    width: 100.33%;
+   background-color: #fefefe;
+   padding-bottom: 50px;
+}
+.p-9
+{
+    font-size: 22px;
+   padding-top: 50px;
+}
+.button-5
+{
+    margin-top: 50px;
+}
+.box-5
+{
+    position: absolute;
+    right: 0%;
+   margin-top: -25px;
+    background-color:#f8eed3;
+    color: #b13941;
+    font-size: 15px;
+    line-height: 30px;
+    width: 150px;
+    margin-right: 150px;
+}
+.border
+{
+    border: 2px solid red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box-05
+{
+    position: absolute;
+    right: 0%;
+   margin-top: -25px;
+    background-color:#f8eed3;
+    color: #b13941;
+    font-size: 15px;
+    line-height: 30px;
+    width: 150px;
+    margin-right: 100px;
+}
+.box-005
+{
+    position: absolute;
+   margin-top: -25px;
+   background-color:#f8eed3;
+    color: #b13941;
+    font-size: 15px;
+    line-height: 30px;
+    width: 150px;
+    margin-left: 90px;
+}
+/* ........................................box6..................................... */
+.box6
+{
+    background-image: url(../image/Shape\ \(2\).png);
+    background-position: center;
+    background-color: #b13941;
+    width: 100%;
+    padding-bottom: 70px;
+    display: flex;
+}
+.video
+{
+    padding-top: 100px;
+    width: 50%;
+    justify-content: center;
+}
+.maintext-6
+{
+    width: 50%;
+}
+.h2-6
+{
+    padding-top: 100px;
+    font-size: 70px;
+    color:#f8eed3;
+}
+.p-10
+{
+    font-size: 20px;
+    text-align: start;
+    color: #feedda;
+    margin-top: 30px;
+    padding-left: 70px;
+}
+.icon-f-w
+{
+    padding-top: 30px;
+    font-size: 30px;
+    margin-right: 390px;
+}
+/* ........................................box7..................................... */
+.box7
+{
+    border: 1px solid black;
+    width: 100%;
+    border-color: black;
+    display: flex;
+}
+.map
+{
+    border: 1px solid black;
+    width: 500px;
+    padding: 0px 0px 0px 0px;
+}
+.form
+{
+    border: 1px solid black;
+    width: 800px;
+    background-color: white;
+    padding-top: 20px;
+}
+.h2-7
+{
+    padding-top: 100px;
+    font-size: 60px;
+    color: red;
+    margin-right: 100px;
+}
+.name 
+{
+    margin-top: 30px;
+    width: 400px;
+    line-height: 37px;
+}
+.text
+{
+    margin-top: 10px;
+    width: 400px;
+    line-height: 37px;
+}
+.button-7
+{
+    margin-top: 50px;
+    background-color: #b13941;
+    color: white;
+    width: 150px;
+    margin-right: 250px;
+    line-height: 40px;
+}
+/* ........................................box8..................................... */
+.box8
+{
+    padding-bottom: 50px;
+   width: 100%;
+   display: flex;
+   background-color: #b13941;
+}
+.mainlogo-8
+{
+    padding-top: 90px;
+    width: 16.66%;
+    padding-right: 50px;
+    margin-left: 50px;
+}
+.yourcompany
+{
+    width: 16.66%;
+    margin-left: 90px;
+    padding-top: 50px;
+}
+.ul-8 , .ul-9
+{
+    display: block;
+    color: white;
+}
+.li-2 , .li-1 , .li-3
+{
+    padding-top: 30px;
+   line-height: 2px;
+   font-size: 19px;
+}
+.li-3
+{
+   padding-right: 95px;
+}
+.li-4
+{
+    padding-top: 50px;
+}
+.company
+{
+    font-size: 25px;
+    margin-top: 30px;
+    width: 200px;
+}
+.li-5
+{
+    padding-top: 80px;
+    font-size: 25px;
+}
+.LoremIpsum , .SitAmet , .Sitemap
+{
+    width: 16.66%;
+}
+.logo-8
+{
+    width: 25%;
+}
+.logo-08
+{
+    padding-top: 100px;
+}
+.p-11
+{
+   padding: 50px 1px; 
+   color: white;
+}
+.icon-f
+{
+    font-size: 25px;
+    margin-right: 100px;
 }
