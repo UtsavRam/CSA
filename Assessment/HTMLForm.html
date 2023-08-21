@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+   <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.maindiv {
+    background-color: lightgray;
+    height:930px;
+}
+
+#lab1 {
+    padding-left: 40px;
+    display: flex;
+    font-size: 25px;
+    padding: 5px;
+    padding-top: 15px;
+}
+
+#t1 {
+    margin-left: 111px;
+    width: 215%;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+#t2 {
+    margin-left: 113px;
+    width: 214%;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+#t3 {
+    margin-left: 162px;
+    width: 192%;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+#t4 {
+    margin-left: 149px;
+    width: 198%;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+.radio-button {
+    font-size: 25px;
+}
+
+#Female {
+    margin-left: 143px;
+    margin-top: 15px;
+}
+
+.dob {
+    font-size: 25px;
+}
+
+#date {
+    padding-right: 711px;
+    margin-left: 87px;
+    margin-top: 15px;
+    font-size: 25px;
+    border-radius: 3px;
+
+}
+
+.address {
+    font-size: 25px;
+}
+
+#address2 {
+    margin-left: 138px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+#c1 {
+    margin-left: 176px;
+    width: 189%;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+#p1 {
+    margin-left: 132px;
+    width: 208%;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+#s1 {
+    margin-left: 170px;
+    width: 192%;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+.qualify1 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+#qualify2 {
+    font-size: 25px;
+    margin-left: 88px;
+}
+
+.checkit{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+#checkbox1{
+    margin-left: 78px;
+}
+
+#checkbox2{
+    margin-left: 233px;
+}
+
+.password{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+#pwd{
+    font-size: 25px;
+    margin-left: 128px;
+    width: 61%;
+    border-radius: 3px;
+}
+
+#submit{
+    color: aliceblue;
+    background-color: green;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 18px;
+    width: 9vw;
+    border: none;
+    border-radius: 5px;
+}
+
+   </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="title">
+                <h1>Students Registration Form</h1>
+            </div>
+            <div class="maindiv">
+                <div class="forms">
+                    <form action="">
+                        <label for="Name" id="lab1">First Name:
+                            <div class="f1">
+                                <input type="text" name="name" id="t1" placeholder="Enter your first name">
+                            </div>
+                        </label>
+                        <label for="Name" id="lab1">Last Name:
+                            <div class="f1">
+                                <input type="text" name="name" id="t2" placeholder="Enter your last name">
+                            </div>
+                        </label>
+                        <label for="Name" id="lab1">Email:
+                            <div class="f1">
+                                <input type="email" name="name" id="t3" placeholder="it should contain @...">
+                            </div>
+                        </label>
+                        <label for="Name" id="lab1">Mobile:
+                            <div class="f1">
+                                <input type="tel" name="name" id="t4" maxlength="10" placeholder="only 10 digit...">
+                            </div>
+                        </label>
+
+                        <div class="radio-button">
+                            <label for="Gender">Gender:</label>
+                            <input type="radio" name="Gender" id="Female"> Female
+                            <input type="radio" name="Gender" id="Male"> Male
+                        </div>
+
+                        <div class="dob">
+                            <label for="d-o-b"> Date of Birth:
+                                <input type="date" name="d-o-b" id="date">
+                            </label>
+                        </div>
+
+                        <div class="address">
+                            <label for="Address">Address:</label>
+                            <textarea name="Address" id="address2" cols="65.5" rows="5"></textarea>
+                        </div>
+                        <label for="Name" id="lab1">City:
+                            <div class="f1">
+                                <input type="text" name="name" id="c1">
+                            </div>
+                        </label>
+                        <label for="Name" id="lab1">Area Pin:
+                            <div class="f1">
+                                <input type="text" name="name" id="p1">
+                            </div>
+                        </label>
+                        <label for="Name" id="lab1">State:
+                            <div class="f1">
+                                <input type="text" name="name" id="s1">
+                            </div>
+                        </label>
+
+                        <div class="qualify1">
+                            <label for="Qualification">Qualification:</label>
+                            <select name="Qualification" id="qualify2">
+                                <option value="" id="space">Select Qualification</option>
+                                <option value="10th Pass">10th Pass</option>
+                                <option value="10th Pass">10th Pass</option>
+                                <option value="Graduate">Graduate</option>
+                                <option value="Post Graduate">Post Graduate</option>
+                                <option value="Phd">Phd</option>
+                            </select>
+                        </div>
+
+                        <div class="checkit">
+                            <label for="Specialization">Specialization:</label>
+                            <input type="checkbox" name="checkbox" id="checkbox1">
+                            Computer Science <br>
+                            <input type="checkbox" name="checkbox" id="checkbox2">
+                            Information Technology <br>
+                            <input type="checkbox" name="checkbox" id="checkbox2">
+                            Computer Architecture <br>
+                            <input type="checkbox" name="checkbox" id="checkbox2">
+                            Tele Communication <br>
+                        </div>
+
+                        <div class="password">
+                            <label for="paswd">Password</label>
+                            <input type="password" name="pwd" id="pwd">
+                        </div>
+
+                        <div class="register">
+                            <button type="submit" id="submit">Registered</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+</body>
+
+</html>
