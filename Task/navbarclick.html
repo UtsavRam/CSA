@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <style>
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .parent
+    {
+        position: relative;
+        display: flex;
+        border-bottom: 2px solid black;
+    }
+    img
+    {
+        width: 100px;
+    }
+    i 
+    {
+        position: absolute;
+        top: 25px;
+        right: 20px;
+        font-size: 30px;
+    }
+    .chek{
+        position: absolute;
+        top: 34px;
+        right: 26px;
+        opacity: 0;
+    }
+    a
+    {
+        display: none;
+       
+    }
+    input:checked + .navclick>a
+    {
+        display: inline-block;
+        padding: 40px 70px;
+        margin-left: 40px;
+    }
+   </style>
+</head>
+<body>
+        <div class="parent">
+            <img src=".../../../Images/logo.png" alt="">
+            <i  class="fa-solid fa-bars"></i>
+            <input class="chek" type="checkbox">
+        
+        <div class="navclick">
+            <a>Home</a>
+            <a>Home</a>
+            <a>Home</a>
+            <a>Home</a>
+            <a>Home</a>
+        </div>
+        </div>
+</body>
+</html>

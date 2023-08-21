@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>click navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .parent
+        {
+            width: 100%;
+            height: 50px;
+            display: grid;
+            grid-template-columns: 2fr 6fr 2fr;
+        }
+        .logo , .nav , .icon
+        {
+            border: 1px solid black;
+        }
+        nav
+        {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+         li 
+        {
+            display: inline-block;
+           padding: 20px;
+           /* display: none; */
+        }
+        img 
+        {
+            margin-left: 80px;
+        }
+        i , .chek
+        {
+            margin-left: 100px;
+        }
+        .icon
+        {
+            position: relative;
+        }
+        i 
+        {
+            font-size: 30px;
+            color: red;
+            position: absolute;
+        }
+        input
+        {
+            position: absolute;
+            margin-right: 10px;
+            margin-top: 7px;
+            /* opacity: 0; */
+
+        }
+        input:checked nav ul li 
+        {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+       <div class="logo">
+   <img src="../Images/logo.png" width="50px" alt="">
+       </div>
+       <div class="nav">
+       <nav>
+        <ul  type="none">
+            <li><a>Home</a></li>
+            <li><a>Home</a></li>
+            <li><a>Home</a></li>
+            <li><a>Home</a></li>
+            <li><a>Home</a></li>
+            <li><a>Home</a></li>
+        </ul>
+       </nav>
+    </div>
+    <div class="icon">
+        <i  class="fa-solid fa-bars"></i>
+        <input class="chek" type="checkbox">
+       </div>
+    </div>
+</body>
+</html>

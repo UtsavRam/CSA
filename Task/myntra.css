@@ -1,0 +1,270 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+
+    background: linear-gradient(rgb(249, 165, 165) ,rgb(245, 245, 122) ,rgb(166, 248, 244));
+}
+.parent
+{
+    position: relative;
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+img
+{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+}
+.i 
+{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    font-size: 30px;
+}
+.chek{
+    position: absolute;
+    top: 34px;
+    right: 26px;
+    opacity: 0;
+}
+a
+{
+    display: none;
+   
+}
+input:checked + .navclick>a
+{
+    display: inline-block;
+    padding: 40px 70px;
+    margin-left: 40px;
+}
+/*.................................. img 1......................................... */
+.flex
+{
+    display: flex;
+    /* gap: 30vw; */
+    padding-bottom: 50px;
+}
+.flip-card
+{    
+    width: 300px;
+    height: 400px;
+    /* perspective: 1000px; */
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 10px black;
+}
+.flip-card-inner
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition:transform 0.6s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner 
+ {
+    transition: 1s;
+    transform: rotatey(180deg);
+ }
+  .flip-card-front, .flip-card-back 
+  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .flip-card-front
+   {
+      background-image: url(../Images/myntraimg1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    }
+    .flip-card-back 
+    {
+      transform: rotateY(180deg);
+      background-image: url(../Images/myntraimg2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    .Rs
+    {
+        margin-top: 10px; 
+        position: relative;  
+    }
+    .icon
+    {
+        display: inline;
+        background-color: rgba(255, 255, 255, 0.534);
+        box-shadow: 0px 0px 10px rgb(249, 249, 249),2px 2px 20px rgb(253, 253, 253) inset;
+       position: absolute;
+        margin-top: 28.50vw;
+        margin-left: 10px;
+        width: 80px;
+    }
+    .box
+    {
+        width: 200px;
+        height: 33px;
+        border-color: transparent;
+        border: 1px solid black;
+    }
+    .heart
+    {
+        margin-left: 4vw;
+        line-height: 30px;
+    }
+    .Rs2
+    {
+        position:absolute;
+        margin-top: -100px;
+        display: none;
+        width: 300px;
+        height: 120px;
+    }
+    .flip-card:hover .Rs2
+    {
+        display: block;
+        background: linear-gradient(rgb(244, 214, 214) ,rgb(133, 248, 248) ,rgb(166, 248, 244));
+    }
+    /* .........................img-3.................. */
+    #a-1
+    {
+        width: 300px;
+        display: block;
+        height: 400px;
+        transition: 0.4s;
+        position: relative;
+        /* background-color: bisque; */
+        margin-left: 120px;
+        margin-top: 50px;
+        transform-style: preserve-3d;
+    }
+    .A
+    {
+            width: 300px;
+           height: 400px;
+            /* background-color: pink; */
+            background-image: url(../Images/myntraimg5.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            transform: translatez(25px);
+    }
+    .B
+     {
+            width: 300px;
+            height: 400px;
+            /* background-color: blue; */
+            background-image: url(../Images/myntraimg6.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            transform: rotatey(90deg) translateZ(25px);
+     }
+     #a-1:hover{
+        transform: rotatey(-90deg) translateZ(0px);
+    }
+
+    /* .........................img-2.................... */
+    .flip-card-2
+    {
+        background-color: transparent;
+        width: 300px;
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 100px;
+        box-shadow: 2px 2px 10px black;
+    }
+    .flip-card-inner-2
+    {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition:transform 0.6s;
+        transform-style: preserve-3d;
+        /* box-shadow: 2px 2px 10px black; */
+    }
+    .flip-card-2:hover .flip-card-inner-2
+     {
+        transition: 1s;
+        transform: rotatey(180deg);
+     }
+      .flip-card-front-2, .flip-card-back-2 
+      {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      .flip-card-front-2
+       {
+          background-image: url(../Images/myntraimg3.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          
+        }
+        .flip-card-back-2 
+        {
+          transform: rotateY(180deg);
+          background-image: url(../Images/myntraimg4.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+        }
+        .Rs-2
+        {
+            margin-top: 10px; 
+            position: relative;  
+        }
+        .icon-2
+        {
+            display: inline;
+            background-color: rgba(255, 255, 255, 0.534);
+            box-shadow: 0px 0px 10px rgb(249, 249, 249),2px 2px 20px rgb(253, 253, 253) inset;
+           position: absolute;
+            margin-top: 28.50vw;
+            margin-left: 10px;
+            width: 80px;
+        }
+        .box-2
+        {
+            width: 200px;
+            height: 33px;
+            border-color: transparent;
+            border: 1px solid black;
+        }
+        .heart-2
+        {
+            margin-left: 4vw;
+            line-height: 30px;
+        }
+        .Rs-02
+        {
+            position:absolute;
+            margin-top: -100px;
+            /* margin-left: 30px; */
+            display: none;
+            width: 300px;
+            height: 120px;
+        }
+        .flip-card-2:hover .Rs-02
+        {
+            display: block;
+            background: linear-gradient(rgb(244, 214, 214) ,rgb(133, 248, 248) ,rgb(166, 248, 244));
+        }
