@@ -1,0 +1,158 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: table;
+}
+.main
+{
+    width: 100%;
+     position: relative;    
+}
+.nav
+{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1.4vw 4vw;
+}
+.ul-1
+{
+    margin-top: 20px;
+    font-size: 1.7vw;
+    font-weight: 800;
+}
+.ul-2
+{
+    margin-top: 20px;
+    display: flex;
+    font-weight: 600;
+    font-size: 1.5vw;
+    gap: 3vw;
+}
+.ul-2 button
+{
+    background-color: lightskyblue;
+    color: white;
+    padding: 0.6vw 1.3vw;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.li-3
+{
+    display: none;
+}
+.content
+{
+    width: 100%;
+    display: flex;
+}
+.rihat
+{
+    padding-bottom: 39.50vw;
+    width: 50%;
+    position: relative;
+    padding: 7vw 6vw;
+}
+.lafte
+{
+    width: 50%;
+    position: relative;
+    background-image: url(../Images/codear.png) ;
+     background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.rihat h2
+{
+    font-size: 4.4vw;
+    line-height: 4.5vw;
+}
+.rihat h2 span
+{
+    color: lightskyblue;
+}
+.rihat p
+{
+    font-size: 3vw;
+    font-weight: 800;
+    width: 90%;
+    filter: drop-shadow(5px 5px 3px lightskyblue);
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+.content button
+{
+    background-color: lightskyblue;
+    color: white;
+    padding: 1.3vw 4vw;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+@media (max-width:600px) {
+    
+    .nav
+    {
+      padding: 1vw 6vw;
+    }
+    .li-1
+    {
+        font-size: 4.2vw;
+    }
+    .li-2
+    {
+        display: none;
+    }
+    .li-3
+    {
+        display: block;
+      color: black;
+      font-size: 4vw;
+    }
+    .li-3:hover .li-2
+    {
+        display: block;
+    }
+    .content
+    {
+        flex-direction: column;
+    }
+    .lafte
+    {
+        background-image: url(../Images/codear.png);
+        background-size: cover;
+        padding-bottom: 90vw;
+        width: 100%;
+    }
+    .rihat
+    {
+        padding-bottom: 10vw;
+        width: 100%;
+    }
+    .rihat h2 
+    {
+        font-size: 10vw;
+       line-height: 10vw;
+    }
+    .rihat p 
+    {
+        font-size: 4vw;
+    font-weight: 800;
+    width: 90%;
+    filter: drop-shadow(5px 5px 3px lightskyblue);
+    margin-top: 5vw;
+    margin-bottom: 6vw;
+    }
+    .content button
+    {
+        padding: 2vw 9vw;
+        font-weight: 800;
+        border-radius: 3px;
+        font-size: 3vw;
+    }
+}
