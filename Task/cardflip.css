@@ -27,6 +27,7 @@ nav ul li {
     display: inline;
     list-style: none;
     margin-left: 100px;
+    background-color: red;
     border: 2px solid red;
     padding: 15px;
 }

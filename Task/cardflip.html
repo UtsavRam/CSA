@@ -16,7 +16,7 @@
     <header>
         <nav>
             <ul>
-                <li> <a href="#" onclick="bodyy()">MEN'S</a></li>
+                <li class="li-1"> <a href="#" onclick="bodyy()">MEN'S</a></li>
                 <li> <a href="#" onclick="bodyy2()">WOMEN'S</a></li>
                 <li> <a href="#" onclick="bodyy3()">BAGS</a></li>
                 <li> <a href="#" onclick="bodyy4()">FOOTER</a></li>
@@ -556,6 +556,7 @@
         mainidiv2.style.display = "none"
         mainidiv3.style.display = "none"
         mainidiv4.style.display = "none"
+        
 
     }
     function bodyy2() {
@@ -576,6 +577,18 @@
         mainidiv3.style.display = "none"
         mainidiv.style.display = "none"
     }
+
+    var allget = document.querySelectorAll("li");
+       
+        allget.forEach((el) => {
+            el.addEventListener('click', () => {
+                allget.forEach((element) => {
+                    element.style.backgroundColor = "red";
+                });
+                el.style.backgroundColor = "white";
+
+            });
+        });
 </script>
 
 </html>
