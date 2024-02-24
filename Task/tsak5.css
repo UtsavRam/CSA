@@ -52,6 +52,17 @@ ul , li
 {
     display: block;
 }
-
+.line
+{
+    background-color: red;
+    height: 2px;
+    width: 90px;
+    display: none;
+}
+.h1:hover .line
+{
+    display: block;
+    transition: 1s;
+}
 
 
